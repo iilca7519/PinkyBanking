@@ -1,0 +1,359 @@
+<!-- FEZ-04-512 -->
+<View
+android:id="@+id/fez_04_512"
+android:layout_width="31dp"
+android:layout_height="31dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="26dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="-5dp"
+android:background="@drawable/fez_04_512"
+ />
+
+
+<!-- drawable/fez_04_512.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="31dp"
+android:height="31dp"
+android:viewportWidth="31"
+android:viewportHeight="31"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H31V31H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Rectangle -->
+<View
+android:id="@+id/rectangle"
+android:layout_width="335dp"
+android:layout_height="559dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="12dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="46dp"
+android:background="@drawable/rectangle"
+ />
+
+
+<!-- drawable/rectangle.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="335dp"
+android:height="559dp"
+android:viewportWidth="335"
+android:viewportHeight="559"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M31 0H304C321.121 0 335 13.8792 335 31V528C335 545.121 321.121 559 304 559H31C13.8792 559 0 545.121 0 528V31C0 13.8792 13.8792 0 31 0Z"
+/>
+
+<path
+android:pathData="M0 0V559H335V0"
+android:fillColor="#FFFFFF"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Line -->
+<View
+android:id="@+id/line"
+android:layout_width="21.21dp"
+android:layout_height="0dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="311dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="-5dp"
+android:background="@drawable/line"
+ />
+
+
+<!-- drawable/line.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="22.21dp"
+android:height="1dp"
+android:viewportWidth="22.21"
+android:viewportHeight="1"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0.5 0.5H21.7132H0.5Z"
+/>
+
+</group>
+
+<path
+android:pathData="M0.5 0.5H21.7132H0.5Z"
+android:strokeWidth="1"
+android:strokeColor="#000000"
+/>
+
+</vector>
+
+
+
+<!-- Line -->
+<View
+android:id="@+id/line"
+android:layout_width="21.21dp"
+android:layout_height="0dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="311dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="25dp"
+android:background="@drawable/line"
+ />
+
+
+<!-- drawable/line.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="22.21dp"
+android:height="1dp"
+android:viewportWidth="22.21"
+android:viewportHeight="1"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0.5 0.5H21.7132H0.5Z"
+/>
+
+</group>
+
+<path
+android:pathData="M0.5 0.5H21.7132H0.5Z"
+android:strokeWidth="1"
+android:strokeColor="#000000"
+/>
+
+</vector>
+
+
+
+<!-- Receive money -->
+<TextView
+android:id="@+id/receive_mon"
+android:layout_width="236dp"
+android:layout_height="49dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="62dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="-15dp"
+android:text="@string/receive_mon"
+android:textAppearance="@style/receive_mon"
+android:gravity="center_horizontal|center_vertical"
+ />
+
+<!--
+  Font family: Roboto
+  Line height: 28sp
+-->
+<!-- styles.xml -->
+<style name="receive_mon">
+
+<item name="android:textSize">
+24sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="receive_mon">
+
+Receive money
+</string>
+
+
+
+
+<!-- Enter amount -->
+<TextView
+android:id="@+id/enter_amoun"
+android:layout_width="222dp"
+android:layout_height="111dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="69dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="34dp"
+android:text="@string/enter_amoun"
+android:textAppearance="@style/enter_amoun"
+android:gravity="center_horizontal|center_vertical"
+ />
+
+<!--
+  Font family: Roboto
+  Line height: 28sp
+-->
+<!-- styles.xml -->
+<style name="enter_amoun">
+
+<item name="android:textSize">
+24sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="enter_amoun">
+
+Enter amount
+</string>
+
+
+
+
+<!-- Rectangle 2 -->
+<View
+android:id="@+id/rectangle_2"
+android:layout_width="282dp"
+android:layout_height="69dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="36dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="117dp"
+android:background="@drawable/rectangle_2"
+ />
+
+
+<!-- drawable/rectangle_2.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="282dp"
+android:height="69dp"
+android:viewportWidth="282"
+android:viewportHeight="69"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M5 0H277C279.761 0 282 2.23858 282 5V64C282 66.7614 279.761 69 277 69H5C2.23858 69 0 66.7614 0 64V5C0 2.23858 2.23858 0 5 0Z"
+/>
+
+<path
+android:pathData="M0 0V69H282V0"
+android:fillColor="#73E0DA"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Rectangle 2.1 -->
+<View
+android:id="@+id/rectangle_2"
+android:layout_width="154dp"
+android:layout_height="38dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="103dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="517dp"
+android:background="@drawable/rectangle_2"
+ />
+
+
+<!-- drawable/rectangle_2.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="154dp"
+android:height="38dp"
+android:viewportWidth="154"
+android:viewportHeight="38"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M19 0H135C145.493 0 154 8.50659 154 19C154 29.4934 145.493 38 135 38H19C8.50659 38 0 29.4934 0 19C0 8.50659 8.50659 0 19 0Z"
+/>
+
+<path
+android:pathData="M0 0V38H154V0"
+android:fillColor="#73E0DA"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Confirm -->
+<TextView
+android:id="@+id/confirm"
+android:layout_width="106dp"
+android:layout_height="28dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="127dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="522dp"
+android:text="@string/confirm"
+android:textAppearance="@style/confirm"
+android:gravity="center_horizontal|center_vertical"
+ />
+
+<!--
+  Font family: Roboto
+  Line height: 28sp
+-->
+<!-- styles.xml -->
+<style name="confirm">
+
+<item name="android:textSize">
+24sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="confirm">
+
+Confirm
+</string>
+
+
+
